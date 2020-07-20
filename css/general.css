@@ -1,0 +1,151 @@
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  max-width: 1160px;
+  margin: 0 auto;
+}
+
+h1 {
+  color: #1c2056;
+  font-size: 50px !important;
+  font-weight: 700;
+  line-height: 60px;
+}
+
+h2 {
+  color: #263238;
+  font-size: 30px !important;
+  font-weight: 700;
+  line-height: 50px;
+}
+
+.title-container {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.medium-button__blue {
+  width: 210px;
+  height: 65px;
+  background-color: #2870db;
+  border-radius: 40px;
+  -webkit-box-shadow: 0 22px 23.5px 0.5px rgba(17, 83, 165, 0.21);
+          box-shadow: 0 22px 23.5px 0.5px rgba(17, 83, 165, 0.21);
+  border: none;
+  color: #fbfcfc;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 40px;
+  cursor: pointer;
+  -webkit-transition: all 0.7s ease;
+  transition: all 0.7s ease;
+}
+
+.medium-button__blue:hover {
+  background-color: #f59399;
+}
+
+.shape-large__blue {
+  position: absolute;
+  top: 0;
+  left: -3%;
+  fill: #1955a3;
+  fill-rule: evenodd;
+  height: 100vh;
+}
+
+.shape-small__pink {
+  fill: #f59399;
+  opacity: 0.5;
+}
+
+.shape-small__blue {
+  fill: #52c8f9;
+  opacity: 0.5;
+}
+
+.invisible {
+  opacity: 0;
+  -webkit-transform: translateX(100vw);
+          transform: translateX(100vw);
+}
+
+.disable-scroll {
+  position: fixed;
+}
+
+.card {
+  max-width: 45%;
+  margin-top: 75px;
+}
+
+.card:not(:first-child) {
+  margin-top: -100px;
+}
+
+.card:nth-child(2n) {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+.card:hover .card-body {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.card-header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.card-body {
+  -webkit-transition: -webkit-transform 0.7s ease;
+  transition: -webkit-transform 0.7s ease;
+  transition: transform 0.7s ease;
+  transition: transform 0.7s ease, -webkit-transform 0.7s ease;
+  padding: 65px;
+  background-color: white;
+  border-radius: 20px;
+  -webkit-box-shadow: 0 27px 43px rgba(32, 94, 171, 0.1);
+          box-shadow: 0 27px 43px rgba(32, 94, 171, 0.1);
+}
+
+.card-subtitle {
+  color: #263238;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.card-text {
+  margin-top: 45px;
+  color: #546e7a;
+  line-height: 30px;
+}
+
+.button-readMore {
+  color: #2870db;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/*# sourceMappingURL=general.css.map */
